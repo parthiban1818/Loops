@@ -12,8 +12,10 @@ public class Invert {
         		 System.out.print(" ");
         	 }
         	 for(int j=i;j<=n;j++) {
-        		 if(i==1|i==n)
+        		 if(i==1|j==n|j==i)
         		 System.out.print("* ");
+        		 else
+        			 System.out.print("  ");
         	 }
         	 System.out.println();
          }
